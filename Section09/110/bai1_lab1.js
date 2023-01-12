@@ -49,11 +49,11 @@ const {
 console.log(team1, draw,team2);
 //6
 const printGoal = function(...players){
-    console.log('${players.lenghth} goal were scored');
+    console.log(`${players.lenghth} goal were scored`);
 };
 printGoal('Davies','Muller','Coman');
 printGoal('Davies','Muller');
 printGoal(...game.scored);
 //7
-team1 < team2 && console.log('Team 1 is more likely to win');
-team1 > team2 && console.log('Team 2 is more likely to win');
+team1 < team2 && console.log(`Team 1 is more likely to win`);
+team1 > team2 && console.log(`Team 2 is more likely to win`);
